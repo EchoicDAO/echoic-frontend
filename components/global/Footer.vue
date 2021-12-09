@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-5 footer bg-white text-black footer-center">
+  <footer class="p-5 footer bg-black text-white footer-center">
     <div class="grid grid-flow-col gap-4">
       <a href="https://chat.echoic.com" target="_blank" class="link link-hover">Chat</a>
     </div>
@@ -14,6 +14,11 @@
 </template>
 <script lang="ts">
 import Vue from 'vue';
+import { Component } from 'nuxt-property-decorator';
+
+@Component({
+  components: {},
+})
 
 export default class Footer extends Vue {
 }
